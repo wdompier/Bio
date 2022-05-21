@@ -1,0 +1,190 @@
+/************** Body Styling (Parent) ***************/
+body {
+  background-color: white;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+}
+
+/*************** Heading & Lines Styling ***********/
+h1 {
+  color: #876445;
+  font-family: 'Playball', cursive;
+  font-size: 5.625rem;
+  font-weight: normal;
+  margin: 10px auto 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+h2 {
+  color: #876445;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  color: #876445;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #826F66;
+  border-top-width: 5px;
+  width: 5%;
+}
+
+/********Special Text Styling **********/
+.pro {
+  text-decoration: underline;
+}
+
+.top-text {
+  padding-bottom: 75px;
+}
+
+.credits {
+  text-decoration: underline;
+}
+
+.my {
+  text-decoration: underline;
+}
+
+/********Wane Dompier Picture Circles ******/
+.circle1 {
+  border: 5px;
+  border-style: solid;
+  height: auto;
+  width: 300px;
+  position: relative;
+  margin: 50px auto 10px auto;
+}
+
+.circlebase {
+  border-radius: 50%;
+  border-color: #876445;
+  position: relative;
+  margin: 50px auto 10px auto;
+}
+
+/**************Clouds & Mountain ***********/
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+/***************** photo-container **************/
+.mountain {
+  width: 33%;
+}
+
+.barr-lake-sunset {
+  width: 33%;
+}
+
+.abstract-sphere {
+  width: 33%;
+}
+
+.top-container {
+  background-color: #F4DFBA;
+  position: relative;
+  padding-top: 50px;
+}
+
+.hello {
+  line-height: 1.5rem;
+}
+
+/***********Photo Container**************/
+.photo-container {
+  position: relative;
+}
+
+/********** Middle container **********/
+.middle-container {
+  padding-top: 30px;
+}
+
+/************Skill Row *****************/
+.skill-row {
+  margin: auto auto 100px auto;
+  width: 75%;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+.linux, .python, .supply-chain {
+  height: 100px;
+  float: right;
+  margin: 45px auto auto 20px;
+}
+
+.photography, .web-development {
+  height: 100px;
+  float: left;
+  margin: 45px 20px auto auto;
+}
+
+.contact-me {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*************** Button ***************/
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: BLACK;
+  font-size: 20px;
+  background: #EEC373;
+  padding: 10px 20px 10px 20px;
+  border: solid BLACK 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F4DFBA;
+  text-decoration: none;
+}
+
+/*********** Bottom container **********/
+.bottom-container {
+  background-color: #EEC373;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*********** Footer **********/
+.footer-link {
+  position: relative;
+  margin: 50px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
